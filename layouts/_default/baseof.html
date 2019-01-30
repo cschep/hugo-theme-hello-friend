@@ -13,6 +13,7 @@
   <div class="content">
     {{ block "main" . }}
     {{ end }}
+    {{ partial "mailchimp.html" . }}
   </div>
 
   {{ block "footer" . }}
